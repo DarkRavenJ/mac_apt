@@ -1,4 +1,4 @@
-FROM python:3.9
+FROM python:3.14.2
 
 RUN pip install anytree biplist construct==2.9.45 xlsxwriter plistutils kaitaistruct lz4 pytsk3==20170802 libvmdk-python==20181227 pycryptodome cryptography pybindgen==0.21.0 pillow pyliblzfse nska_deserialize
 RUN pip install https://github.com/libyal/libewf-legacy/releases/download/20140808/libewf-20140808.tar.gz
